@@ -533,6 +533,163 @@
 				)
 			)
 		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -1186,16 +1343,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 162.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f50ae58-2c8f-493a-88ee-a3aa88658b40")
-	)
-	(wire
-		(pts
 			(xy 137.16 95.25) (xy 147.32 95.25)
 		)
 		(stroke
@@ -1256,6 +1403,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 105.41) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf26a9f-3126-4ace-a510-0f3863611323")
+	)
+	(wire
+		(pts
 			(xy 147.32 95.25) (xy 156.21 95.25)
 		)
 		(stroke
@@ -1273,6 +1430,16 @@
 			(type default)
 		)
 		(uuid "d6a64c54-95c4-40e5-a727-510bb3cbe906")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6573370-6a5c-440a-ae17-26b9f010b031")
 	)
 	(wire
 		(pts
@@ -1451,7 +1618,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 162.56 96.52 90)
+		(at 162.56 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1460,7 +1627,7 @@
 		(fields_autoplaced yes)
 		(uuid "35a92a3e-4cce-4c09-b794-b5a8678a02ac")
 		(property "Reference" "D1"
-			(at 166.37 96.8374 90)
+			(at 166.37 101.9174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1636,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.37 99.3774 90)
+			(at 166.37 104.4574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 96.52 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 96.52 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1663,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 162.56 96.52 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,6 +1948,75 @@
 			(project "ebow"
 				(path "/e1b4dd4e-8d19-49ab-849b-d4c53e40bae1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 156.21 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69bb3026-8b7f-4bcd-9079-a9b639a6896b")
+		(property "Reference" "L2"
+			(at 157.988 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16 Ohm"
+			(at 160.528 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eeefcd9-a294-414b-b957-d448b5a55985")
+		)
+		(pin "2"
+			(uuid "df62fda5-8ee1-427b-bb1d-dfdbdfef56f1")
+		)
+		(instances
+			(project "ebow"
+				(path "/e1b4dd4e-8d19-49ab-849b-d4c53e40bae1"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2190,140 +2426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a992034f-6efe-4c1e-9e9d-216f3fd2f248")
-		(property "Reference" "R1"
-			(at 107.696 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "140"
-			(at 107.696 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Input Coil"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1739fd5c-c070-4ebb-ade7-3d199008f014")
-		)
-		(pin "1"
-			(uuid "c0acacb6-1117-4648-9417-e305aa5d1114")
-		)
-		(instances
-			(project ""
-				(path "/e1b4dd4e-8d19-49ab-849b-d4c53e40bae1"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af03ee78-2f5a-447f-8e47-c37486d40e8e")
-		(property "Reference" "R2"
-			(at 152.4635 106.9975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "16"
-			(at 152.4635 109.5375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.988 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Output Coil"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "606005d5-1faf-4b4d-8a03-103c5a53143c")
-		)
-		(pin "1"
-			(uuid "ced4d9ac-64a4-4de0-b95e-997d24c63ae4")
-		)
-		(instances
-			(project "ebow"
-				(path "/e1b4dd4e-8d19-49ab-849b-d4c53e40bae1"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Audio:LM386")
 		(at 129.54 95.25 0)
 		(unit 1)
@@ -2539,6 +2641,74 @@
 			(project "ebow"
 				(path "/e1b4dd4e-8d19-49ab-849b-d4c53e40bae1"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 107.95 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4243ce9-5ca1-4c6a-b218-b00125e33eb4")
+		(property "Reference" "L1"
+			(at 107.95 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140 Ohm"
+			(at 107.95 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a194a9a-9ac6-4fdd-b07b-4f83bb6899de")
+		)
+		(pin "2"
+			(uuid "7f0a2238-0b31-44ab-b5ed-21c880003b5a")
+		)
+		(instances
+			(project ""
+				(path "/e1b4dd4e-8d19-49ab-849b-d4c53e40bae1"
+					(reference "L1")
 					(unit 1)
 				)
 			)
