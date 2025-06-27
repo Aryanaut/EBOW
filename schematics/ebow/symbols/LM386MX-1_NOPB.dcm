@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM386MX-1_NOPB
+D Wide Input Voltage Low Power Audio Amplifier with Internal Gain
+K
+F http://www.ti.com/lit/gpn/lm386
+$ENDCMP
+#
+#End Doc Library
