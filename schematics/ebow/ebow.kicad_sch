@@ -3885,7 +3885,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 45.72 113.03 90)
+		(at 45.72 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
